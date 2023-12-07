@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi", "HomeApi\HomeApi.csproj", "{18A57E19-3B29-45E8-8953-801FB6EB9ABD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1001152-8918-422B-A6C8-A3C6CFD97D4F} = {F1001152-8918-422B-A6C8-A3C6CFD97D4F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Contracts", "HomeApi.Contracts\HomeApi.Contracts.csproj", "{F1001152-8918-422B-A6C8-A3C6CFD97D4F}"
 EndProject
