@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi", "HomeApi\HomeApi.csproj", "{18A57E19-3B29-45E8-8953-801FB6EB9ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Contracts", "HomeApi.Contracts\HomeApi.Contracts.csproj", "{F1001152-8918-422B-A6C8-A3C6CFD97D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A57E19-3B29-45E8-8953-801FB6EB9ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A57E19-3B29-45E8-8953-801FB6EB9ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A57E19-3B29-45E8-8953-801FB6EB9ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A57E19-3B29-45E8-8953-801FB6EB9ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1001152-8918-422B-A6C8-A3C6CFD97D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1001152-8918-422B-A6C8-A3C6CFD97D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1001152-8918-422B-A6C8-A3C6CFD97D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1001152-8918-422B-A6C8-A3C6CFD97D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4D6B87D-06D0-4464-ABC3-057B9B1E95D6}
+	EndGlobalSection
+EndGlobal
